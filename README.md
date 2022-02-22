@@ -13,10 +13,22 @@
 
 翻譯:
 
-[English](https://github.com/viraptor/reverse-interview)|
-[한국어](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/Reverse_Interview/README.md)|
-[Portuguesa](https://github.com/viraptor/reverse-interview/blob/master/translations/PORTUGUESE.md)|
-[繁體中文](https://github.com/NeroCube/reverse-interview-zh-tw)
+- [阿拉伯語](https://github.com/viraptor/reverse-interview/blob/master/translations/ARABIC.md)
+- [加泰羅尼亞語](https://github.com/viraptor/reverse-interview/blob/master/translations/CATALAN.md)
+- 中文 [簡體](https://github.com/yifeikong/reverse-interview-zh) / [繁體](https://github.com/NeroCube/reverse-interview-zh-tw/blob/master/README.md)
+- [英文](https://github.com/viraptor/reverse-interview/blob/master/README.md)
+- [法語](https://github.com/viraptor/reverse-interview/blob/master/translations/FRENCH.md)
+- [德語](https://github.com/viraptor/reverse-interview/blob/master/translations/GERMAN.md)
+- [印地語](https://github.com/hraverkar/reverse-interview/blob/master/translations/Hindi.md)
+- [印度尼西亞語](https://github.com/viraptor/reverse-interview/blob/master/translations/INDONESIAN.md)
+- [意大利語](https://github.com/viraptor/reverse-interview/blob/master/translations/ITALIAN.md)
+- [韓語](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/Reverse_Interview/README.md)
+- [葡萄牙語（巴西](https://github.com/viraptor/reverse-interview/blob/master/translations/pt-BR.md)
+- [俄語](https://github.com/kix/reverse-interview/blob/master/README.md)
+- [西班牙語](https://github.com/felHR85/Entrevista-inversa/blob/master/README.md)
+- [土耳其語](https://github.com/viraptor/reverse-interview/blob/master/translations/TURKISH.md)
+- [越南語](https://github.com/tuannh99/reverse-interview/blob/master/README.md)
+
 
 ## 預期使用方式
 
@@ -28,7 +40,7 @@
 
 請記住事情總是靈活的，組織的結構調整也會經常發生。
 擁有一個 bug 追蹤系統並不會保證高效處理 bug。 
-CI/CD (持續集成系統) 也不一定保證交付時間會很短。
+CI/CD (持續整合系統) 也不一定保證交付時間會很短。
 
 
 # 職責
@@ -62,6 +74,11 @@ CI/CD (持續集成系統) 也不一定保證交付時間會很短。
 - 你們需要花費多長時間來給產品搭建一個本地測試環境？ （分鐘/小時/天）
 - 你們需要花費多長時間來解決安全問題與相依性？
 - 所有的開發者都可以使用他們電腦的本機管理員權限嗎？
+- 你們的程式碼有開發文件嗎？是否有單獨提供給客戶的文件？
+- 你們有更高層次的討論文件嗎？比如說 ER 圖，資料庫結構描述等。
+- 你們是否使用靜態程式碼分析嗎？
+- 你們如何管理內部和外部的專案產出？
+- 你們如何管理依賴關係？
 
 # 團隊
 
@@ -74,6 +91,13 @@ CI/CD (持續集成系統) 也不一定保證交付時間會很短。
 - 產品/服務的規劃是什麼樣的？ （n週一發布 / 持續部署 / 多個發布流 / ...)
 - 生產環境發生事故了怎麼辦？是否有不批評人而分析問題的文化？
 - 有沒有一些團隊正在經歷還尚待解決的挑戰？
+- 你們如何進行專案進度追蹤？
+- 團隊預期和目標是如何設定的？誰來設定？
+- 團隊裡的 程式碼檢查(Code Review) 如何實施？
+- 介紹一下團隊裡一個典型的衝刺(Sprint) 流程
+- 你們如何在技術和商業目標之間取得平衡？
+- 你們如何分享知識？
+- 目前團隊有多少人？組織人數如何分配？
 
 # 公司
 
@@ -86,8 +110,24 @@ CI/CD (持續集成系統) 也不一定保證交付時間會很短。
 - 公司的成熟度如何？ （早期尋找方向 / 有內容的工作 / 維護中 / ...)
 - 我可以為開源項目做貢獻嗎？是否需要審批？
 - 有競業限製或者保密協議需要簽嗎？
-- 你們認為公司文化中的空白是什麼？
-- 能夠跟我說一公司處於不良情況，以及癒合處理的故事嗎？
+- 您認為公司在未來 5/10 年內將走向何方？
+- 無瑕程式碼對這裡的大多數開發人員代表著什麼？
+- 你最後一次注意到有人在這裡成長是什麼時候，他們以什麼方式成長？
+- 在這裡成功意味著什麼，你如何衡量成功？
+- 有社團/團隊建設活動嗎？
+- 內部是否有黑客松？
+- 公司是否支持開源項目？
+- 團隊/公司舉辦什麼樣的社交活動，每個人都會參加嗎？
+- 為什麼公司決定聘請外部人員而不是提拔內部員工？
+
+＃ 衝突
+
+- 意見分歧如何解決？
+- 如果退版(pushback)會發生什麼？ （"這不能在預計的時間內完成"）
+- 當團隊承受壓力並承諾超出他們的能力/速度時會發生什麼？
+- 如果有人確定流程/技術/等方面的改進領域，會發生什麼？
+- 當管理層的期望與工程師或團隊的績效之間存在差距時，會發生什麼？
+- 你能告訴我一個關於有害情況的故事以及公司如何處理它嗎？
 
 # 商業
 
@@ -112,13 +152,21 @@ CI/CD (持續集成系統) 也不一定保證交付時間會很短。
 - 辦公室的佈局如何？ （開放的 / 小隔間 / 獨立辦公室）
 - 有沒有支持/市場/或者其他需要大量打電話的團隊在我的團隊旁邊辦公嗎？
 
+# 吸引力
+
+- 在這個角色/團隊/公司工作的最好和最壞的方面是什麼？
+- 最初是什麼讓你選擇為公司工作？
+- 是什麼讓你留在公司？
+
 # 待遇
 
-- 如果有獎金計劃的話，獎金如何分配？
-- 如果有獎金計劃的話，過去的幾年裡通常會發百分之多少的獎金？
-- 有其他退休養老金等福利嗎？如果有的話，公司有配套的商業保險嗎？
+- 如果您有獎金計劃，那麼獎金是如何確定的？
+- 如果您有獎金計劃，那麼過去幾年典型的獎金百分比是多少？
+- 您有 401k 或其他退休計劃嗎？ 如果是，公司是否匹配額外的計劃供款？
+- 有醫療福利嗎？如果有，什麼時候開始？
+- 你付搬家費嗎？
 
-# 帶薪休假
+# 休假
 
 - 帶薪休假時間有多久？
 - 病假和事假是分開的還是一起算？
@@ -128,6 +176,24 @@ CI/CD (持續集成系統) 也不一定保證交付時間會很短。
 - 無薪休假政策是什麼樣的？
 - 特休假政策是什麼樣的？
 
+- 提供多少帶薪休假 (PTO)？
+- 病假和事假是分開的還是一起計算？？
+- 我可以提前使用假期時間嗎？也就是說計算負的帶薪休假？
+- 特休的未使用完會如何處理？(換錢 或 續延)
+- 育兒假政策是什麼？
+- 無薪休假的政策是什麼？
+- 長假的政策是什麼？
+
 # 其他資源
 
-- 可以在 [Joel Test](https://www。joelonsoftware。com/2000/08/09/the-joel-test-12-steps-to-better-code/) 找到更多靈感。
+在以下位置查找更多問題靈感：
+
+- [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) by Joel Spolsky
+- [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/) by Julia Evans
+
+# 授權
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
